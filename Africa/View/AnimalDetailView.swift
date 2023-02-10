@@ -52,6 +52,7 @@ struct AnimalDetailView: View {
         
         // Facts
         
+        
         // Desctiption
         
         // Map
