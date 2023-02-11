@@ -44,18 +44,33 @@ struct AnimalDetailView: View {
 
         // Gallery
         Group {
-          HeadingView(headingImage: "photo.on.rectangle.angled", headingText: "Wilderness in Pictures")
-          
+          HeadingView(headingImage: "questionmark.circle", headingText: "Did you know?")
           InsetGalleryView(animal: animal)
         }
         .padding(.horizontal)
         
         // Facts
-        
-        
-        // Desctiption
+        Group {
+          HeadingView(headingImage: "qestionmark.circle", headingText: "Did you know?")
+          InsetFactView(animal: animal)
+        }
+        .padding(.horizontal)
+
+        // Description
+        Group {
+          HeadingView(headingImage: "info.circle", headingText: "All about \(animal.name)")
+
+          Text(animal.description)
+            .multilineTextAlignment(.leading)
+            .layoutPriority(1)
+        }
+        .padding(.horizontal)
         
         // Map
+        Group {
+          HeadingView(headingImage: "map", headingText: "National Parks")
+        }
+        .padding(.horizontal)
         
         // Link
         

@@ -37,6 +37,7 @@
 		536C88082996BFA00000F147 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536C88072996BFA00000F147 /* AnimalDetailView.swift */; };
 		536C880A2996C9840000F147 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536C88092996C9840000F147 /* HeadingView.swift */; };
 		536C880C2996D7190000F147 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536C880B2996D7190000F147 /* InsetGalleryView.swift */; };
+		536C880E299704570000F147 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536C880D299704570000F147 /* InsetFactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		536C88072996BFA00000F147 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		536C88092996C9840000F147 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		536C880B2996D7190000F147 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
+		536C880D299704570000F147 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				536C88072996BFA00000F147 /* AnimalDetailView.swift */,
 				536C88092996C9840000F147 /* HeadingView.swift */,
 				536C880B2996D7190000F147 /* InsetGalleryView.swift */,
+				536C880D299704570000F147 /* InsetFactView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				53002F722992E09D00434200 /* ContentView.swift in Sources */,
 				536C8804299593AA0000F147 /* AnimalListItemView.swift in Sources */,
 				536C87F729941E700000F147 /* MainView.swift in Sources */,
+				536C880E299704570000F147 /* InsetFactView.swift in Sources */,
 				536C87F529941E0E0000F147 /* GalleryView.swift in Sources */,
 				536C87FD2995685F0000F147 /* CoverImageModel.swift in Sources */,
 				536C88082996BFA00000F147 /* AnimalDetailView.swift in Sources */,
