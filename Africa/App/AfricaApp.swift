@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct AfricaApp: App {
+  // MARK: - PROPERTIES
+  
+  // MARK: - BODY
   var body: some Scene {
     WindowGroup {
       MainView()
