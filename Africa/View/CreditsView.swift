@@ -15,8 +15,8 @@ struct CreditsView: View {
         .scaledToFit()
         .frame(width: 128, height: 128)
       Text("""
-  Copyright © Clifford Sharp
-  All Rights Reserved
+  Clifford Sharp
+  From a UDEMY Tutorial
   Pure 🐬 SwiftUI
   """)
       .font(.footnote)
