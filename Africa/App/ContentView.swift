@@ -41,8 +41,7 @@ struct ContentView: View {
 
   var body: some View {
     
-    // MARK: - BODY
-
+    // MARK: - BODY
     NavigationView {
       Group {
         if !isGridViewActive {
